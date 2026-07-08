@@ -1,9 +1,61 @@
 {
-    "checksum": {
-        "hash": "bd954c2670e5431494f7d938eea088af",
-        "method": "MD5"
+    "data": {
+        "basic-handler": [
+            {
+                "auto-raise-incident": 0,
+                "automation-stitch": 0,
+                "content-pack-id": "",
+                "content-pack-uuid": "",
+                "creation-time": 1776724148,
+                "data-selector": "",
+                "description": "",
+                "enable": 1,
+                "enable-time": 0,
+                "handler-id": "757_2b1_236_efb",
+                "mitre-info": "",
+                "name": "FortiGate_Login",
+                "notification": "",
+                "protected": 0,
+                "rule": [
+                    {
+                        "aggregate-expr": "COUNT(*) >= 1",
+                        "devtype": 0,
+                        "enable": 1,
+                        "eventstatus": "auto",
+                        "eventtype": null,
+                        "extrainfo": null,
+                        "extrainfo-type": 0,
+                        "filter": [
+                            {
+                                "id": 1,
+                                "key": "logid",
+                                "oper": 0,
+                                "value": "0100032002"
+                            }
+                        ],
+                        "filter-expr": "",
+                        "filter-relation": 1,
+                        "groupby1": "srcip",
+                        "groupby2": "devid-vdom",
+                        "groupby3": "",
+                        "indicator": null,
+                        "logtype": "event",
+                        "name": "Login_Fail",
+                        "risk-severity": 4,
+                        "rule-id": "c07_3ba_6b8_36c",
+                        "severity": 1,
+                        "tags": "",
+                        "thres-duration": 1,
+                        "utmevent": "system"
+                    }
+                ],
+                "template-url": "",
+                "update-time": 1783533315,
+                "uuid": "",
+                "version": 2
+            }
+        ]
     },
-    "data": "H4sIAAAAAAAAA21STW/bMAy971cIOrVDDfgjiYMB62XAeim6y3YaBkOWFUeILAkSFTQo+t8nynLiFbuJT3zkeyTfCO2Zl7w4Mj0o4egX8pu8EeqCEsubjaMTIwNRiFeLGfTbj18vP+8+35PHr6SiD4QO4gwXi4wyRkKzPtErDM5CgwcGwSOVBTB0gTNHB6UQegXHpD6Y/0DFqvxBKrgplUNudBIXbKDMGKEYG5uSkHFmKiCbllVZlk1dljUl7+TPtdjVGb1BTigG0uhcfnQm2P5SYZZ3XFp6A+uFmuNmiaUeJGdg3M1S1Je9zDPANM2mBDxH7RoBJ/2p8PHfSUBXm4d5JUVyS3nZdk3Pul2/75odR8YqGdUCG/0iAo5O+GIIbm0nwDS3RzsXD2JaJoIbKuLUfeymuRzmpDL/TKlI4UECP2acGw0xq7CMn7JC+hEOYfXhxFwFZPJdtftms9vuqzadkudO2iw15f97TylYqNg+n27u3G7bru6rrm52nTj0yJ8kODSTLouuB/7dOJBP8bS76+itMyA4iCFXj5OxCo8/OLXQgx0Q+SB/s8Wvlc+4ET/bqNEYAxZ3qmJxc701bUAe8EQWu7gE8v7pLx+lJ1KYAwAA",
-    "data-type": "zip/base64",
-    "length": 624
+    "data-type": "txt",
+    "length": 934
 }

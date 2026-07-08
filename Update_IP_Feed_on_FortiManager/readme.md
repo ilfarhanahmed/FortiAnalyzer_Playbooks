@@ -1,7 +1,6 @@
 # Update IP Feed on FortiManager
 
-Refer to article:
-https://community.fortinet.com/fortianalyzer-6/technical-tip-updating-a-fortimanager-local-external-resource-feed-from-a-fortianalyzer-playbook-228684
+Refer to article: [Technical Tip: Updating a FortiManager local external resource feed from a FortiAnalyzer playbook.](https://community.fortinet.com/fortianalyzer-6/technical-tip-updating-a-fortimanager-local-external-resource-feed-from-a-fortianalyzer-playbook-228684)
 
 ## FAZ v8.0
 - Create Webhook connector in FortiAnalyzer (using FMG API).
